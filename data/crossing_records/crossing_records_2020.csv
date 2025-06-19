@@ -1,0 +1,90 @@
+Cross_ID,Cross_Date,Year,Program,Female_Parent,Male_Parent,Crossing_Location,Researcher,Seeds_Harvested,Germination_Rate,F1_Plants,Cross_Type,Purpose,Success_Rating,Notes
+2020_MR3_C0001,2020-05-27,2020,MR3,MR3_P20,MR3_P75,Emerald,Dr. Johnson,43,0.95,62,Single,Disease Resistance,Excellent,Cross targeting drought tolerance
+2020_MR3_C0002,2020-05-19,2020,MR3,MR3_P36,MR3_P72,Kingaroy,Dr. Brown,115,0.75,28,Backcross,Yield Improvement,Fair,Cross targeting quality
+2020_MR3_C0003,2020-05-15,2020,MR3,MR3_P91,MR3_P78,Roma,Dr. Wilson,63,0.96,51,Single,Disease Resistance,Poor,Cross targeting drought tolerance
+2020_MR3_C0004,2020-03-20,2020,MR3,MR3_P29,MR3_P23,Gatton,Dr. Thomas,138,0.75,104,Backcross,Climate Adaptation,Fair,Cross targeting drought tolerance
+2020_MR4_C0005,2020-08-06,2020,MR4,MR4_P66,MR4_P54,Kingaroy,Dr. Anderson,142,0.94,106,Single,Climate Adaptation,Good,Cross targeting yield
+2020_MR1_C0006,2020-03-14,2020,MR1,MR1_P7,MR1_P5,Warwick,Dr. Wilson,10,0.84,34,Single,Climate Adaptation,Fair,Cross targeting quality
+2020_MR1_C0007,2020-03-21,2020,MR1,MR1_P9,MR1_P88,Dalby,Dr. Smith,16,0.87,30,Three-way,Yield Improvement,Excellent,Cross targeting drought tolerance
+2020_MR4_C0008,2020-04-06,2020,MR4,MR4_P45,MR4_P46,Emerald,Dr. Anderson,100,0.83,17,Three-way,Yield Improvement,Excellent,Cross targeting yield
+2020_MR3_C0009,2020-07-21,2020,MR3,MR3_P65,MR3_P43,Emerald,Dr. Davis,124,0.86,61,Single,Quality Enhancement,Good,Cross targeting drought tolerance
+2020_MR2_C0010,2020-04-20,2020,MR2,MR2_P46,MR2_P98,Goondiwindi,Dr. Davis,24,0.95,55,Three-way,Yield Improvement,Good,Cross targeting yield
+2020_MR2_C0011,2020-07-15,2020,MR2,MR2_P89,MR2_P46,Warwick,Dr. Smith,86,0.81,30,Backcross,Disease Resistance,Poor,Cross targeting quality
+2020_MR4_C0012,2020-08-11,2020,MR4,MR4_P61,MR4_P75,Hermitage,Dr. Thomas,117,0.94,62,Three-way,Yield Improvement,Excellent,Cross targeting drought tolerance
+2020_MR1_C0013,2020-05-22,2020,MR1,MR1_P40,MR1_P68,Hermitage,Dr. Wilson,83,0.78,27,Backcross,Disease Resistance,Fair,Cross targeting quality
+2020_MR1_C0014,2020-08-20,2020,MR1,MR1_P62,MR1_P54,Roma,Dr. Wilson,48,0.96,67,Double,Climate Adaptation,Excellent,Cross targeting quality
+2020_MR3_C0015,2020-08-07,2020,MR3,MR3_P34,MR3_P63,Roma,Dr. Anderson,19,0.81,71,Three-way,Yield Improvement,Good,Cross targeting disease resistance
+2020_MR4_C0016,2020-08-05,2020,MR4,MR4_P72,MR4_P19,Kingaroy,Dr. Wilson,137,0.92,102,Double,Climate Adaptation,Good,Cross targeting yield
+2020_MR3_C0017,2020-06-06,2020,MR3,MR3_P99,MR3_P39,Kingaroy,Dr. Thomas,148,0.88,102,Single,Quality Enhancement,Fair,Cross targeting drought tolerance
+2020_MR2_C0018,2020-03-07,2020,MR2,MR2_P4,MR2_P78,Emerald,Dr. Wilson,53,0.75,105,Three-way,Disease Resistance,Poor,Cross targeting drought tolerance
+2020_MR4_C0019,2020-06-26,2020,MR4,MR4_P72,MR4_P8,Hermitage,Dr. Thomas,113,0.79,82,Backcross,Quality Enhancement,Excellent,Cross targeting disease resistance
+2020_MR3_C0020,2020-03-07,2020,MR3,MR3_P89,MR3_P91,Gatton,Dr. Taylor,143,0.86,97,Double,Quality Enhancement,Poor,Cross targeting quality
+2020_MR1_C0021,2020-06-05,2020,MR1,MR1_P8,MR1_P69,Gatton,Dr. Wilson,48,0.9,15,Backcross,Disease Resistance,Excellent,Cross targeting yield
+2020_MR4_C0022,2020-04-03,2020,MR4,MR4_P18,MR4_P80,Emerald,Dr. Davis,50,0.72,41,Backcross,Quality Enhancement,Good,Cross targeting yield
+2020_MR3_C0023,2020-08-21,2020,MR3,MR3_P49,MR3_P10,Hermitage,Dr. Anderson,47,0.84,71,Backcross,Quality Enhancement,Excellent,Cross targeting drought tolerance
+2020_MR4_C0024,2020-06-27,2020,MR4,MR4_P30,MR4_P92,Hermitage,Dr. Johnson,135,0.77,84,Three-way,Disease Resistance,Poor,Cross targeting quality
+2020_MR2_C0025,2020-06-24,2020,MR2,MR2_P47,MR2_P48,Hermitage,Dr. Anderson,42,0.98,117,Three-way,Yield Improvement,Poor,Cross targeting quality
+2020_MR3_C0026,2020-04-02,2020,MR3,MR3_P57,MR3_P47,Emerald,Dr. Taylor,13,0.98,48,Three-way,Quality Enhancement,Poor,Cross targeting disease resistance
+2020_MR3_C0027,2020-04-05,2020,MR3,MR3_P82,MR3_P32,Hermitage,Dr. Brown,114,0.82,97,Single,Yield Improvement,Good,Cross targeting quality
+2020_MR4_C0028,2020-08-03,2020,MR4,MR4_P41,MR4_P69,Gatton,Dr. Smith,28,0.7,106,Three-way,Disease Resistance,Poor,Cross targeting quality
+2020_MR2_C0029,2020-08-01,2020,MR2,MR2_P51,MR2_P19,Goondiwindi,Dr. Wilson,18,0.73,12,Three-way,Disease Resistance,Fair,Cross targeting disease resistance
+2020_MR2_C0030,2020-04-11,2020,MR2,MR2_P7,MR2_P82,Kingaroy,Dr. Brown,74,0.84,119,Single,Disease Resistance,Poor,Cross targeting quality
+2020_MR1_C0031,2020-03-23,2020,MR1,MR1_P84,MR1_P86,Dalby,Dr. Smith,94,0.76,95,Single,Quality Enhancement,Good,Cross targeting yield
+2020_MR4_C0032,2020-04-13,2020,MR4,MR4_P48,MR4_P52,Gatton,Dr. Thomas,37,0.98,65,Single,Disease Resistance,Fair,Cross targeting drought tolerance
+2020_MR4_C0033,2020-07-27,2020,MR4,MR4_P77,MR4_P23,Dalby,Dr. Anderson,132,0.95,68,Backcross,Quality Enhancement,Poor,Cross targeting disease resistance
+2020_MR4_C0034,2020-05-03,2020,MR4,MR4_P89,MR4_P60,Warwick,Dr. Taylor,75,0.89,104,Backcross,Climate Adaptation,Good,Cross targeting yield
+2020_MR4_C0035,2020-03-17,2020,MR4,MR4_P45,MR4_P76,Warwick,Dr. Anderson,141,0.94,105,Single,Climate Adaptation,Poor,Cross targeting disease resistance
+2020_MR1_C0036,2020-07-13,2020,MR1,MR1_P75,MR1_P27,Emerald,Dr. Brown,123,0.76,87,Single,Quality Enhancement,Poor,Cross targeting quality
+2020_MR2_C0037,2020-03-25,2020,MR2,MR2_P16,MR2_P29,Goondiwindi,Dr. Davis,25,0.84,116,Backcross,Yield Improvement,Good,Cross targeting disease resistance
+2020_MR1_C0038,2020-03-05,2020,MR1,MR1_P2,MR1_P47,Dalby,Dr. Davis,129,0.83,97,Backcross,Yield Improvement,Poor,Cross targeting drought tolerance
+2020_MR4_C0039,2020-07-20,2020,MR4,MR4_P59,MR4_P94,Gatton,Dr. Davis,123,0.85,105,Single,Climate Adaptation,Good,Cross targeting drought tolerance
+2020_MR1_C0040,2020-04-12,2020,MR1,MR1_P8,MR1_P45,Kingaroy,Dr. Taylor,85,0.76,115,Single,Climate Adaptation,Fair,Cross targeting yield
+2020_MR1_C0041,2020-07-12,2020,MR1,MR1_P55,MR1_P51,Gatton,Dr. Brown,134,0.81,79,Backcross,Yield Improvement,Good,Cross targeting quality
+2020_MR4_C0042,2020-04-01,2020,MR4,MR4_P57,MR4_P62,Gatton,Dr. Smith,46,0.81,63,Double,Disease Resistance,Fair,Cross targeting yield
+2020_MR3_C0043,2020-05-23,2020,MR3,MR3_P76,MR3_P65,Hermitage,Dr. Brown,22,0.77,24,Double,Yield Improvement,Excellent,Cross targeting quality
+2020_MR4_C0044,2020-05-23,2020,MR4,MR4_P35,MR4_P46,Gatton,Dr. Wilson,82,0.88,56,Double,Yield Improvement,Fair,Cross targeting quality
+2020_MR4_C0045,2020-03-09,2020,MR4,MR4_P37,MR4_P8,Kingaroy,Dr. Davis,44,0.82,97,Three-way,Climate Adaptation,Good,Cross targeting drought tolerance
+2020_MR3_C0046,2020-07-20,2020,MR3,MR3_P31,MR3_P68,Goondiwindi,Dr. Thomas,55,0.78,94,Three-way,Disease Resistance,Excellent,Cross targeting quality
+2020_MR4_C0047,2020-06-09,2020,MR4,MR4_P28,MR4_P7,Kingaroy,Dr. Anderson,114,0.91,17,Double,Quality Enhancement,Fair,Cross targeting disease resistance
+2020_MR4_C0048,2020-04-14,2020,MR4,MR4_P23,MR4_P78,Kingaroy,Dr. Johnson,96,0.76,102,Double,Disease Resistance,Excellent,Cross targeting disease resistance
+2020_MR3_C0049,2020-07-06,2020,MR3,MR3_P58,MR3_P51,Hermitage,Dr. Wilson,47,0.82,101,Double,Disease Resistance,Poor,Cross targeting drought tolerance
+2020_MR3_C0050,2020-04-21,2020,MR3,MR3_P43,MR3_P22,Hermitage,Dr. Johnson,102,0.71,113,Three-way,Disease Resistance,Excellent,Cross targeting disease resistance
+2020_MR2_C0051,2020-08-21,2020,MR2,MR2_P78,MR2_P2,Goondiwindi,Dr. Wilson,57,0.75,118,Backcross,Yield Improvement,Good,Cross targeting quality
+2020_MR2_C0052,2020-08-12,2020,MR2,MR2_P39,MR2_P79,Gatton,Dr. Thomas,83,0.93,78,Backcross,Yield Improvement,Excellent,Cross targeting quality
+2020_MR3_C0053,2020-06-06,2020,MR3,MR3_P2,MR3_P12,Emerald,Dr. Smith,124,0.94,30,Backcross,Quality Enhancement,Poor,Cross targeting disease resistance
+2020_MR4_C0054,2020-07-13,2020,MR4,MR4_P56,MR4_P70,Gatton,Dr. Wilson,149,0.71,15,Three-way,Climate Adaptation,Fair,Cross targeting drought tolerance
+2020_MR1_C0055,2020-04-04,2020,MR1,MR1_P94,MR1_P66,Kingaroy,Dr. Johnson,130,0.84,109,Three-way,Quality Enhancement,Fair,Cross targeting quality
+2020_MR2_C0056,2020-04-22,2020,MR2,MR2_P36,MR2_P76,Gatton,Dr. Brown,48,0.74,44,Backcross,Yield Improvement,Poor,Cross targeting yield
+2020_MR4_C0057,2020-07-13,2020,MR4,MR4_P25,MR4_P79,Roma,Dr. Smith,16,0.79,32,Double,Climate Adaptation,Good,Cross targeting yield
+2020_MR4_C0058,2020-05-03,2020,MR4,MR4_P6,MR4_P34,Gatton,Dr. Brown,98,0.77,77,Backcross,Climate Adaptation,Good,Cross targeting disease resistance
+2020_MR1_C0059,2020-06-05,2020,MR1,MR1_P97,MR1_P12,Warwick,Dr. Johnson,19,0.86,56,Backcross,Quality Enhancement,Excellent,Cross targeting disease resistance
+2020_MR2_C0060,2020-08-27,2020,MR2,MR2_P25,MR2_P6,Emerald,Dr. Wilson,128,0.98,45,Three-way,Disease Resistance,Poor,Cross targeting drought tolerance
+2020_MR1_C0061,2020-08-18,2020,MR1,MR1_P8,MR1_P26,Dalby,Dr. Anderson,130,0.91,65,Backcross,Yield Improvement,Excellent,Cross targeting disease resistance
+2020_MR4_C0062,2020-05-22,2020,MR4,MR4_P99,MR4_P33,Dalby,Dr. Taylor,15,0.85,78,Three-way,Climate Adaptation,Good,Cross targeting disease resistance
+2020_MR2_C0063,2020-07-26,2020,MR2,MR2_P50,MR2_P57,Emerald,Dr. Brown,134,0.7,84,Three-way,Disease Resistance,Poor,Cross targeting disease resistance
+2020_MR4_C0064,2020-06-26,2020,MR4,MR4_P25,MR4_P99,Goondiwindi,Dr. Taylor,94,0.94,70,Single,Disease Resistance,Good,Cross targeting quality
+2020_MR4_C0065,2020-04-07,2020,MR4,MR4_P71,MR4_P44,Emerald,Dr. Thomas,97,0.74,104,Double,Disease Resistance,Good,Cross targeting drought tolerance
+2020_MR4_C0066,2020-06-13,2020,MR4,MR4_P95,MR4_P48,Dalby,Dr. Anderson,116,0.91,79,Three-way,Quality Enhancement,Good,Cross targeting yield
+2020_MR3_C0067,2020-06-15,2020,MR3,MR3_P30,MR3_P41,Gatton,Dr. Wilson,49,0.72,79,Single,Disease Resistance,Good,Cross targeting quality
+2020_MR3_C0068,2020-07-08,2020,MR3,MR3_P96,MR3_P61,Hermitage,Dr. Thomas,114,0.75,30,Backcross,Yield Improvement,Good,Cross targeting disease resistance
+2020_MR4_C0069,2020-06-07,2020,MR4,MR4_P7,MR4_P89,Emerald,Dr. Smith,149,0.87,88,Double,Climate Adaptation,Poor,Cross targeting yield
+2020_MR1_C0070,2020-03-28,2020,MR1,MR1_P48,MR1_P41,Emerald,Dr. Taylor,92,0.81,88,Single,Quality Enhancement,Fair,Cross targeting drought tolerance
+2020_MR4_C0071,2020-06-21,2020,MR4,MR4_P50,MR4_P86,Goondiwindi,Dr. Taylor,143,0.89,101,Single,Quality Enhancement,Good,Cross targeting disease resistance
+2020_MR4_C0072,2020-07-23,2020,MR4,MR4_P83,MR4_P10,Hermitage,Dr. Smith,68,0.96,90,Three-way,Yield Improvement,Poor,Cross targeting quality
+2020_MR1_C0073,2020-05-22,2020,MR1,MR1_P87,MR1_P90,Warwick,Dr. Smith,25,0.74,118,Double,Climate Adaptation,Good,Cross targeting quality
+2020_MR4_C0074,2020-07-14,2020,MR4,MR4_P90,MR4_P61,Warwick,Dr. Davis,88,0.81,50,Single,Disease Resistance,Fair,Cross targeting disease resistance
+2020_MR3_C0075,2020-04-05,2020,MR3,MR3_P84,MR3_P62,Emerald,Dr. Thomas,19,0.87,18,Double,Quality Enhancement,Good,Cross targeting drought tolerance
+2020_MR1_C0076,2020-04-15,2020,MR1,MR1_P100,MR1_P43,Roma,Dr. Wilson,37,0.84,120,Three-way,Climate Adaptation,Good,Cross targeting drought tolerance
+2020_MR4_C0077,2020-04-10,2020,MR4,MR4_P82,MR4_P90,Emerald,Dr. Anderson,148,0.97,44,Double,Disease Resistance,Poor,Cross targeting drought tolerance
+2020_MR4_C0078,2020-04-08,2020,MR4,MR4_P99,MR4_P43,Roma,Dr. Anderson,18,0.98,29,Single,Disease Resistance,Excellent,Cross targeting disease resistance
+2020_MR3_C0079,2020-05-15,2020,MR3,MR3_P84,MR3_P54,Goondiwindi,Dr. Anderson,112,0.74,24,Backcross,Yield Improvement,Excellent,Cross targeting drought tolerance
+2020_MR2_C0080,2020-04-27,2020,MR2,MR2_P79,MR2_P85,Roma,Dr. Taylor,40,0.83,29,Double,Yield Improvement,Fair,Cross targeting yield
+2020_MR2_C0081,2020-04-28,2020,MR2,MR2_P16,MR2_P4,Gatton,Dr. Smith,44,0.88,33,Single,Climate Adaptation,Good,Cross targeting quality
+2020_MR4_C0082,2020-03-15,2020,MR4,MR4_P34,MR4_P45,Dalby,Dr. Taylor,145,0.91,86,Three-way,Climate Adaptation,Excellent,Cross targeting disease resistance
+2020_MR3_C0083,2020-05-06,2020,MR3,MR3_P60,MR3_P47,Roma,Dr. Thomas,26,0.95,98,Single,Disease Resistance,Excellent,Cross targeting disease resistance
+2020_MR4_C0084,2020-03-03,2020,MR4,MR4_P48,MR4_P28,Hermitage,Dr. Thomas,121,0.86,52,Double,Climate Adaptation,Fair,Cross targeting quality
+2020_MR4_C0085,2020-05-21,2020,MR4,MR4_P63,MR4_P2,Roma,Dr. Davis,77,0.8,40,Three-way,Disease Resistance,Fair,Cross targeting quality
+2020_MR2_C0086,2020-04-26,2020,MR2,MR2_P60,MR2_P94,Goondiwindi,Dr. Wilson,19,0.94,9,Backcross,Climate Adaptation,Poor,Cross targeting quality
+2020_MR1_C0087,2020-03-28,2020,MR1,MR1_P94,MR1_P47,Roma,Dr. Johnson,113,0.87,41,Three-way,Climate Adaptation,Fair,Cross targeting drought tolerance
+2020_MR4_C0088,2020-08-04,2020,MR4,MR4_P9,MR4_P38,Warwick,Dr. Taylor,63,0.9,48,Single,Yield Improvement,Excellent,Cross targeting disease resistance
+2020_MR3_C0089,2020-05-21,2020,MR3,MR3_P32,MR3_P11,Roma,Dr. Davis,104,0.84,11,Single,Disease Resistance,Excellent,Cross targeting quality
