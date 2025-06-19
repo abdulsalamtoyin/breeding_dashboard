@@ -14,7 +14,7 @@ langchain-community==0.2.16
 langchain-openai==0.1.23
 
 # Vector database and embeddings
-chromadb>=0.4.22,<0.5.0
+#chromadb>=0.4.22,<0.5.0
 sentence-transformers>=2.6.0
 
 # Additional AI/ML dependencies
