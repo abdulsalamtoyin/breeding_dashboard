@@ -1,0 +1,27 @@
+{
+  "rag_settings": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "chunk_size": 1000,
+    "chunk_overlap": 200,
+    "top_k": 4,
+    "temperature": 0.1,
+    "max_tokens": 500
+  },
+  "breeding_knowledge": {
+    "include_external_docs": true,
+    "update_frequency": "daily",
+    "knowledge_categories": [
+      "genetics",
+      "breeding_methods",
+      "genomics",
+      "economics",
+      "field_testing",
+      "statistics"
+    ]
+  },
+  "safety_settings": {
+    "max_query_length": 500,
+    "content_filter": true,
+    "rate_limit": 100
+  }
+}

@@ -1,0 +1,205 @@
+# Breeding Dashboard Setup Instructions
+
+## 🚀 Quick Start
+
+### 1. Create Project Directory
+```bash
+mkdir breeding-dashboard
+cd breeding-dashboard
+```
+
+### 2. Set Up Python Environment
+```bash
+# Create virtual environment
+python -m venv breeding_env
+
+# Activate environment
+# On Windows:
+breeding_env\Scripts\activate
+# On Mac/Linux:
+source breeding_env/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Create Directory Structure
+```
+breeding-dashboard/
+├── app.py                 # Main Streamlit app
+├── requirements.txt       # Dependencies
+├── db/                   # Database directory
+│   └── haplotype_tracking.db
+├── data/                 # CSV data files (optional)
+├── logs/                 # Log files
+└── utils/                # Helper functions
+    ├── __init__.py
+    ├── data_loader.py
+    └── breeding_functions.py
+```
+
+### 5. Create Database Directory
+```bash
+mkdir db logs data utils
+touch utils/__init__.py
+```
+
+### 6. Run the Application
+```bash
+streamlit run app.py
+```
+
+The app will open in your browser at `http://localhost:8501`
+
+## 📊 Database Setup (Optional)
+
+If you have real breeding data, create the SQLite database:
+
+### Create Database Schema
+```sql
+-- Create tables
+CREATE TABLE haplotypes (
+    haplotype_id TEXT PRIMARY KEY,
+    block TEXT,
+    chromosome TEXT,
+    position REAL,
+    markers TEXT,
+    year INTEGER,
+    breeding_value REAL,
+    stability_score REAL
+);
+
+CREATE TABLE samples (
+    sample_id TEXT PRIMARY KEY,
+    gid TEXT,
+    year INTEGER,
+    region TEXT,
+    breeding_program TEXT,
+    selection_index REAL
+);
+
+CREATE TABLE haplotype_assignments (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    sample_id TEXT,
+    haplotype_id TEXT,
+    block TEXT,
+    year INTEGER,
+    FOREIGN KEY (sample_id) REFERENCES samples(sample_id),
+    FOREIGN KEY (haplotype_id) REFERENCES haplotypes(haplotype_id)
+);
+
+CREATE TABLE phenotypes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    GID TEXT,
+    Trait TEXT,
+    BLUE REAL,
+    SE REAL,
+    Year INTEGER,
+    Environment TEXT
+);
+```
+
+### Import Your Data
+```python
+import sqlite3
+import pandas as pd
+
+# Connect to database
+conn = sqlite3.connect('db/haplotype_tracking.db')
+
+# Load your CSV files
+haplotypes_df = pd.read_csv('your_haplotypes.csv')
+samples_df = pd.read_csv('your_samples.csv')
+phenotypes_df = pd.read_csv('your_phenotypes.csv')
+
+# Import to database
+haplotypes_df.to_sql('haplotypes', conn, if_exists='replace', index=False)
+samples_df.to_sql('samples', conn, if_exists='replace', index=False)
+phenotypes_df.to_sql('phenotypes', conn, if_exists='replace', index=False)
+
+conn.close()
+```
+
+## 🛠️ Customization
+
+### Adding New Visualizations
+1. Add new tab in the main app
+2. Create visualization function in `utils/breeding_functions.py`
+3. Add to the appropriate tab section
+
+### Modifying Demo Data
+Edit the `create_demo_data()` function to match your breeding program structure.
+
+### Color Schemes
+Modify the color palettes in the plotting functions to match your organization's branding.
+
+## 🔧 Advanced Features
+
+### Real-Time Data Updates
+Add a refresh button or automatic data reload:
+```python
+if st.button("🔄 Refresh Data"):
+    st.cache_data.clear()
+    st.rerun()
+```
+
+### Export Functionality
+Add download buttons for plots and data:
+```python
+@st.cache_data
+def convert_df_to_csv(df):
+    return df.to_csv(index=False).encode('utf-8')
+
+csv = convert_df_to_csv(your_dataframe)
+st.download_button(
+    label="📥 Download Data",
+    data=csv,
+    file_name="breeding_data.csv",
+    mime="text/csv"
+)
+```
+
+### User Authentication
+For production deployment, add authentication:
+```python
+import streamlit_authenticator as stauth
+# Add authentication logic
+```
+
+## 📱 Deployment Options
+
+### Local Network Access
+```bash
+streamlit run app.py --server.address 0.0.0.0 --server.port 8501
+```
+
+### Cloud Deployment
+- **Streamlit Cloud**: Connect your GitHub repo
+- **Heroku**: Add `Procfile` with `web: streamlit run app.py --server.port=$PORT`
+- **AWS/Azure**: Use container deployment
+
+## 🐛 Troubleshooting
+
+### Common Issues
+
+1. **Import Errors**: Make sure all dependencies are installed
+2. **Database Connection**: Check if `db/` directory exists
+3. **Memory Issues**: Reduce data size or add caching
+4. **Port Already in Use**: Use `--server.port` flag with different port
+
+### Performance Tips
+
+1. Use `@st.cache_data` for expensive operations
+2. Limit data display to reasonable sizes
+3. Use `st.session_state` for user inputs
+4. Consider pagination for large datasets
+
+## 📞 Support
+
+If you encounter issues:
+1. Check the terminal for error messages
+2. Verify all dependencies are installed
+3. Ensure data formats match expected schema
+4. Check Streamlit documentation for specific components
